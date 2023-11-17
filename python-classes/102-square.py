@@ -13,7 +13,7 @@ class Square:
 
     @property
     def size(self):
-        """The property of size as the length 
+        """The property of size as length 
         of a side of Square
         Raises:
             TypeError: if size != int
@@ -50,4 +50,3 @@ class Square:
 
     def __eq__(self, other):
         return self.area() == other.area()
-
